@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -E -x c "./$CFILE" -o "./c"
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -E -x c "./$CFILE" -o "./c"
