@@ -13,6 +13,8 @@ int main(void)
 	/* your code goes there */
 	char cmprstr[29];
 
+	char ldgt = n % 10;
+	
 	if (n > 5)
 		cmprstr = "and is greater than 5";
 	else if (n == 0)
