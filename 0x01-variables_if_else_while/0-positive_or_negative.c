@@ -14,7 +14,7 @@ int main(void)
 
 	if (n > 5)
 		cmprstr = "and is greater than 5";
-	else if (n = 0)
+	else if (n == 0)
 		cmprstr = "and is 0";
 	else
 		cmprstr = "and is less than 6 and not 0";
