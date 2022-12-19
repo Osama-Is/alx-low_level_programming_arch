@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 /* more headers goes there */
@@ -19,6 +20,6 @@ int main(void)
 	else
 		cmprstr = "and is less than 6 and not 0";
 
-	printf("Last digit of %d is \s", ldgt, cmprstr);
+	printf("Last digit of %d is %s", ldgt, cmprstr);
 	return (0);
 }
