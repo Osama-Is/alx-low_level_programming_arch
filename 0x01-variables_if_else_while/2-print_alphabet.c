@@ -13,5 +13,6 @@ int main(void)
 		putchar(i);
 		i++;
 	}
+	purchar(0A);
 	return (0);
 }
