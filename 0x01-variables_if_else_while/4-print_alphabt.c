@@ -17,6 +17,7 @@ int main(void)
 		}
 
 		i++;
+		purchar('\n');
 	}
 
 	return (0);
