@@ -13,7 +13,7 @@ int main(void)
 		putchar(i);
 		i++;
 	}
-	
+
 	i = 65;
 
 	while (i <= 90)
