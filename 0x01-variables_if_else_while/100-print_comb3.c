@@ -29,6 +29,7 @@ int main(void)
 			y++;
 		}
 		i++;
+		y = i + 1;
 	}
 	return (0);
 }
