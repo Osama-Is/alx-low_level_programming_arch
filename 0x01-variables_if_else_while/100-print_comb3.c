@@ -7,17 +7,17 @@
  */
 int main(void)
 {
-	char i = '0';
-	char y = '1';
+	short i = 48;
+	short y = 49;
 
-	while (i <= '8')
+	while (i <= 56)
 	{
-		while (y <= '9')
+		while (y <= 57)
 		{
 			putchar(i);
 			putchar(y);
 			
-			if (i == '8' && y == '9')
+			if (i == 56 && y == 57)
 			{
 				putchar('\n');
 			}
