@@ -28,7 +28,7 @@ int main(void)
 			}
 			y++;
 		}
-		i++
+		i++;
 	}
 	return (0);
 }
