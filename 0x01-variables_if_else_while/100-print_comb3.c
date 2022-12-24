@@ -10,7 +10,7 @@ int main(void)
 	char i = '0';
 	char y = '1';
 
-	while (i <= '8;)
+	while (i <= '8')
 	{
 		while (y <= '9')
 		{
