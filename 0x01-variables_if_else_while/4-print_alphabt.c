@@ -8,8 +8,6 @@
 int main(void)
 {
 	char i = 97;
-	char lttre = 'e';
-	char lttrq = 'q';
 
 	while (i <= 122)
 	{
