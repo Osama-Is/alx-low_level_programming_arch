@@ -3,7 +3,7 @@
 /**
  * main - Prints all possible different cobinations of two numbers
  *
- * Reutrn: Zero
+ * Return: Zero
  */
 int main(void)
 {
@@ -16,7 +16,7 @@ int main(void)
 		{
 			putchar(i);
 			putchar(y);
-			
+
 			if (i == 56 && y == 57)
 			{
 				putchar('\n');
