@@ -10,7 +10,7 @@ int main(void)
 	short x = 48;
 	short y = 49;
 	short z = 50;
-	
+
 	while (x <= 55)
 	{
 		while (y <= 56)
