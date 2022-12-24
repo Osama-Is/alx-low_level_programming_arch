@@ -9,11 +9,11 @@ int main(void)
 {
 	short i = 48;
 
-	while (i <= 56)
+	while (i <= 57)
 	{
 		putchar(i);
 
-		if (i != 56)
+		if (i != 57)
 		{
 			putchar(',');
 		}
