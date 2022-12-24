@@ -11,7 +11,7 @@ int main(void)
 
 	while (i <= 103)
 	{
-		putchar('\n');
+		putchar(i);
 		i++;
 	}
 
@@ -19,7 +19,7 @@ int main(void)
 	
 	while (i <= 57)
 	{
-		putchar('\n');
+		putchar(i);
 		i++;
 	}
 
