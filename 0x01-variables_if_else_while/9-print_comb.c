@@ -9,15 +9,19 @@ int main(void)
 {
 	short i = 48;
 
-	while (i <= 57)
+	while (i <= 56)
 	{
 		putchar(i);
-		putchar(',');
+
+		if (i != 56)
+		{
+			putchar(',');
+		}
+
 		putchar(' ');
 		i++;
 	}
 
 	putchar('\n');
 
-	return (0);
-}
+	return (0); }
