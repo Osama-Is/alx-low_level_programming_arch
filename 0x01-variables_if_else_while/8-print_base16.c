@@ -20,6 +20,7 @@ int main(void)
 	while (i <= 57)
 	{
 		putchar('\n');
+		i++;
 	}
 
 	putchar('\n');
