@@ -37,6 +37,7 @@ int main(void)
 		}
 		x++;
 		y = x + 1;
+		z = y + 1;
 	}
 	return (0);
 }
