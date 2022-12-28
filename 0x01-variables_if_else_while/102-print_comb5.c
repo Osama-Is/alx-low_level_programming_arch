@@ -27,7 +27,6 @@ int main(void)
 					putchar(' ');
 					putchar(y1);
 					putchar(y2);
-
 					if (x1 == 57 && x2 == 56 && y1 == 57 && y2 == 57)
 					{
 						putchar('\n');
