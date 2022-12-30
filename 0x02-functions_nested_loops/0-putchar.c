@@ -2,8 +2,10 @@
 
 /**
  * main - Prints the "_putchar"
+ *
+ * Return: Zero
  */
-void main(void)
+int main(void)
 {
 	_putchar('_');
 	_putchar('p');
@@ -15,5 +17,5 @@ void main(void)
 	_putchar('r');
 	_putchar('\n');
 
-	return;
+	return (0);
 }
