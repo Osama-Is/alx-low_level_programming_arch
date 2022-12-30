@@ -8,6 +8,6 @@
  */
 int _abs(int i)
 {
-	signed a = i;
+	unsigned a = i;
 	return (a);
 }
