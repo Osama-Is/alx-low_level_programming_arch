@@ -8,6 +8,15 @@
  */
 int _abs(int i)
 {
-	unsigned int a = i;
-	return (a);
+	int a;
+
+	if (i < 0)
+	{
+		a = i * -1;
+		return (a);
+	}
+	else
+	{
+		return (i);
+	}
 }
