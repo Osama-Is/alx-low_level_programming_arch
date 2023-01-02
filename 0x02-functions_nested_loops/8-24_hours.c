@@ -34,15 +34,15 @@ void jack_bauer(void)
 					    hrson = -2;
 					    hrstn = -2;
 					}
-					y2++;
+					mnson++;
 				}
-				y2 = 48;
-				y1++;
+				mnson = 48;
+				mnstn++;
 			}
-			y1 = 48;
-			x2++;
+			mnstn = 48;
+			hrson++;
 		}
-		x2 = 48;
-		x1++;
+		hrson = 48;
+		hrstn++;
 	}
 }
