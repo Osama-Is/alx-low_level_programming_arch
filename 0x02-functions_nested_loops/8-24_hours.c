@@ -26,10 +26,10 @@ void jack_bauer(void)
 					_putchar('\n');
 					if (hrstn == 50 && hrson == 51 && mnstn == 53 && mnson == 57)
 					{
-					    mnson = 100;
-					    mnstn = 100;
-					    hrson = 100;
-					    hrstn = 100;
+						mnson = 100;
+						mnstn = 100;
+						hrson = 100;
+						hrstn = 100;
 					}
 					mnson++;
 				}
