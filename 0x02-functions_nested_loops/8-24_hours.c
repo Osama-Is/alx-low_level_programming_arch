@@ -10,13 +10,13 @@ void jack_bauer(void)
 	short mnstn = 48;
 	short mnson = 48;
 
-	while (x1 < 51)
+	while (hrstn < 51)
 	{
-		while (x2 <= 57)
+		while (hrson <= 57)
 		{
-			while (y1 < 54)
+			while (mnstn < 54)
 			{
-				while (y2 <= 57)
+				while (mnson <= 57)
 				{
 					_putchar(hrstn);
 					_putchar(hrson);
