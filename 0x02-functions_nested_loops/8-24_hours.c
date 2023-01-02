@@ -29,10 +29,10 @@ void jack_bauer(void)
 						mnstn == 53 &&\
 						mnson == 57)
 					{
-					    mnson = -2;
-					    mnstn = -2;
-					    hrson = -2;
-					    hrstn = -2;
+					    mnson = 100;
+					    mnstn = 100;
+					    hrson = 100;
+					    hrstn = 100;
 					}
 					mnson++;
 				}
