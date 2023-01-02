@@ -24,7 +24,7 @@ void jack_bauer(void)
 					_putchar(mnstn);
 					_putchar(mnson);
 					_putchar('\n');
-					if (hrsrn == 50 &&\
+					if (hrstn == 50 &&\
 						hrson == 51 &&\
 						mnstn == 53 &&\
 						mnson == 57)
