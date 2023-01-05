@@ -14,6 +14,7 @@ void print_to_98(int n)
 		{
 			printf("%d", n);
 			putchar('\n');
+			break
 		}
 		else
 		{
@@ -26,6 +27,5 @@ void print_to_98(int n)
 		else
 		{
 			n += -(98 - n) / (98 - n);
-		}
 	}
 }
