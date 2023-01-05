@@ -19,6 +19,6 @@ void print_to_98(int n)
 		}
 		printf(", ");
 
-		n += (n < 98)? 1 : -1;
+		n += (n < 98) ? 1 : -1;
 	}
 }
