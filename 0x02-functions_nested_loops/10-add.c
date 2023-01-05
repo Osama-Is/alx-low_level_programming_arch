@@ -5,7 +5,7 @@
  *
  * Return: Sum
  */
-int add(int fnum, snum)
+int add(int fnum, int snum)
 {
 	int sum = fnum + snum;
 	
