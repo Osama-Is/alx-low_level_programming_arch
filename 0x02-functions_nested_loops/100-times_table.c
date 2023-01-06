@@ -29,16 +29,16 @@ void print_times_table(int n)
 						_putchar(' ');
 						_putchar(' ');
 					}
-					putnum(n);
+					putnum(pdct);
 				}
 				else if (pdct < 100)
 				{
 					_putchar(' ');
-					putnum(n);
+					putnum(pdct);
 				}
 				else
 				{
-					putnum(n);
+					putnum(pdct);
 				}
 				if (j != n)
 				{
