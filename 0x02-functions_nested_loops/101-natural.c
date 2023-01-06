@@ -7,7 +7,6 @@
  */
 int main(void)
 {
-	int sum;
 	int summul3;
 	int summul5;
 	int lmul3 = 1024 / 3;
