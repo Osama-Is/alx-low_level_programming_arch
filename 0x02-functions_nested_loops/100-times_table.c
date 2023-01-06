@@ -1,5 +1,8 @@
 #include "main.h"
 
+
+void putnum(int n);
+
 /**
  * print_times_table - Prints the n times table, starting with 0
  * @n: The number for which the time table will be printed.
@@ -26,19 +29,16 @@ void print_times_table(int n)
 						_putchar(' ');
 						_putchar(' ');
 					}
-					_putchar(pdct + '0');
+					putnum(n);
 				}
 				else if (pdct < 100)
 				{
 					_putchar(' ');
-					_putchar((pdct / 10) + '0');
-					_putchar((pdct % 10) + '0');
+					putnum(n);
 				}
 				else
 				{
-					_putchar((pdct / 100) + '0');
-					_putchar(((pdct / 10) % 10) + '0');
-					_putchar((pdct % 10) + '0');
+					putnum(n);
 				}
 				if (j != n)
 				{
@@ -49,4 +49,18 @@ void print_times_table(int n)
 			_putchar('\n');
 		}
 	}
+}
+
+
+/**
+ * putnum - Prints 'n' digit at a time
+ * @n: The number to be printed
+ */
+void putnum(int n)
+{
+	if (n >= 10)
+	{
+		putnum(n / 10);
+	}
+	_putchar((n % 10) + '0');
 }
