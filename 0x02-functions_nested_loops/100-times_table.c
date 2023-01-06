@@ -5,7 +5,7 @@
  * @n: The number for which the time table will be printed.
  *
  * Description: if 'n' is greater than 15 or less than 0 \
- * 	the function should not print anything.
+ *	the function should not print anything.
  */
 void print_times_table(int n)
 {
@@ -21,8 +21,11 @@ void print_times_table(int n)
 
 				if (pdct < 10)
 				{
-					_putchar(' ');
-					_putchar(' ');
+					if (j != 0)
+					{
+						_putchar(' ');
+						_putchar(' ');
+					}
 					_putchar(pdct + '0');
 				}
 				else if (pdct < 100)
