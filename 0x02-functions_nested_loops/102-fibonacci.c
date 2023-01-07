@@ -15,6 +15,7 @@ int main(void)
 	for (i = 3; i <= 50; i++)
 	{
 		long int c = a + b;
+
 		printf("%ld", c);
 		if (i != 50)
 		{
