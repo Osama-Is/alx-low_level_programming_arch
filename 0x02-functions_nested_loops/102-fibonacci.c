@@ -11,6 +11,9 @@ int main(void)
 	int spmmb = 2;
 	int i;
 
+	putchar('1');
+	putchar('2');
+
 	for (i = 2; i <= 50; i++)
 	{
 		int curr = fpmmb + spmmb;
