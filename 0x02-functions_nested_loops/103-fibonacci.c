@@ -3,17 +3,17 @@
 /**
  * main - Prints the sum of the even-valued terms of Fibonacci sequence
  *
- * Description: The values of terms for Fibonacci sequence 
+ * Description: The values of terms for Fibonacci sequence
  * do not exceed 4,000,000.
  * Return: Zero
  */
 int main(void)
 {
-	long int a = 1, b = 2, sum;
+	int a = 1, b = 2, sum;
 
-	while ((a+b) <= 4000000)
+	while ((a + b) <= 4000000)
 	{
-		long int c = a + b;
+		int c = a + b;
 
 		if ((c % 2) == 0)
 		{
@@ -22,7 +22,7 @@ int main(void)
 		a = b;
 		b = c;
 	}
-	printf("%ld\n", sum);
+	printf("%d\n", sum);
 
 	return (0);
 }
