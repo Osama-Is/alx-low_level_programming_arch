@@ -7,8 +7,8 @@
  */
 int main(void)
 {
-	int fpmmb = 1;
-	int spmmb = 2;
+	long int fpmmb = 1;
+	long int spmmb = 2;
 	int i;
 
 	putchar('1');
@@ -16,7 +16,7 @@ int main(void)
 
 	for (i = 2; i <= 50; i++)
 	{
-		int curr = fpmmb + spmmb;
+		long int curr = fpmmb + spmmb;
 		printf("%d, ", curr);
 
 		fpmmb = spmmb;
