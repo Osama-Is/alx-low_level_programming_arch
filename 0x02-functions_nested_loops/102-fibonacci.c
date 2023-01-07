@@ -11,8 +11,8 @@ int main(void)
 	long int spmmb = 2;
 	int i;
 
-	putchar('1');
-	putchar('2');
+	printf("%ld, ", fpmmb);
+	printf("%ld, ", spmmb);
 
 	for (i = 2; i <= 50; i++)
 	{
