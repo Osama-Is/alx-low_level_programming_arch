@@ -7,17 +7,14 @@
  */
 int main(void)
 {
-	int summul3;
-	int summul5;
-	int lmul3 = 1024 / 3;
-	int lmul5 = 1024 / 5;
-	int ntrm3 = lmul3 / 3;
-	int ntrm5 = lmul5 / 5;
+	int sum;
+	int i;
 
-	summul3 = 3 * ((1 + ntrm3) * (ntrm3 / 2));
-	summul5 = 5 * ((1 + ntrm5) * (ntrm5 / 2));
-
-	printf("%d", summul3 + summul5);
-
-	return (0);
+	for (i = 3; i < 1024; i++)
+	{
+		if (((i % 3) == 0) || ((i % 5) == 0))
+		{
+			sum += i;
+		}
+	}
 }
