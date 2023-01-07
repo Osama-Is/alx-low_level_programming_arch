@@ -17,7 +17,7 @@ int main(void)
 	for (i = 2; i <= 50; i++)
 	{
 		long int curr = fpmmb + spmmb;
-		printf("%d, ", curr);
+		printf("%l, ", curr);
 
 		fpmmb = spmmb;
 		spmmb = curr;
