@@ -7,25 +7,24 @@
  */
 int main(void)
 {
-	long int fpmmb = 1;
-	long int spmmb = 2;
+	long int a = 1, b = 2;
 	int i;
 
-	printf("%ld, ", fpmmb);
-	printf("%ld, ", spmmb);
+	printf("%ld, ", a);
+	printf("%ld, ", b);
 
 	for (i = 3; i <= 50; i++)
 	{
-		long int curr = fpmmb + spmmb;
+		long int c = a + b;
 
-		printf("%ld", curr);
+		printf("%ld", c);
 
 		if (i != 50)
 		{
 			printf(", ");
 		}
-		fpmmb = spmmb;
-		spmmb = curr;
+		a = b;
+		b = c;
 	}
 	putchar('\n');
 
