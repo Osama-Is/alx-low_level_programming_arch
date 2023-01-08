@@ -16,6 +16,10 @@ int main(void)
 	int i;
 
 	printf("%ld, %ld, ", a2, b2);
+
+	a1 = 0;
+	b1 = 0;
+
 	for (i = 3; i <= 98; i++)
 	{
 		long int c1, c2;
