@@ -11,8 +11,8 @@
  */
 int main(void)
 {
-	long int a1 = 0, a2 = 1;
-	long int b1 = 0, b2 = 2;
+	long int a1, a2 = 1;
+	long int b1, b2 = 2;
 	int i;
 
 	printf("%ld, %ld, ", a2, b2);
