@@ -11,10 +11,10 @@
  */
 int main(void)
 {
-	long int a1;
 	long int a2 = 1;
 	long int b1, b2 = 2;
 	int i;
+	long int a1;
 
 	printf("%ld, %ld, ", a2, b2);
 
