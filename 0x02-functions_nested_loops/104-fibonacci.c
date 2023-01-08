@@ -36,7 +36,7 @@ int main(void)
 			printf(", ");
 		}
 
-		aa = b1;
+		a1 = b1;
 		a2 = b2;
 		b1 = c1;
 		b2 = c2;
