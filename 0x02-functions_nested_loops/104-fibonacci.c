@@ -14,11 +14,11 @@ int main(void)
 	long int a2 = 1;
 	long int b1, b2 = 2;
 	int i;
-	long int a1;
+	long int aa;
 
 	printf("%ld, %ld, ", a2, b2);
 
-	a1 = 0;
+	aa = 0;
 	b1 = 0;
 	for (i = 3; i <= 98; i++)
 	{
@@ -35,7 +35,7 @@ int main(void)
 			printf(", ");
 		}
 
-		a1 = b1;
+		aa = b1;
 		a2 = b2;
 		b1 = c1;
 		b2 = c2;
