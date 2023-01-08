@@ -23,8 +23,11 @@ int main(void)
 	i = a1 + 1;
 	for (i = 3; i <= 98; i++)
 	{
-		long int c1 = (a2 + b2) / 1000000000;
-		long int c2 = (a2 + b2) % 1000000000;
+		long int c1, c2;
+
+		c1 = a1 + b1;
+		c1 += (a2 + b2) / 1000000000;
+		c2 = (a2 + b2) % 1000000000;
 
 		if (c1)
 		{
