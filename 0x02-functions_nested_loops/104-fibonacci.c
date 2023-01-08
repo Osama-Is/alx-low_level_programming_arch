@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdint>
 
 /**
  * main - Prints the first 98 Fibonacci numbers, starting with 1 and 2
@@ -18,11 +17,10 @@ int main(void)
 
 	printf("%ld, %ld, ", a2, b2);
 	printf("%ld", ((long int)999999999 + (long int)999999999));
-
 	for (i = 3; i <= 98; i++)
 	{
-		long int c1 = ((long)a1 + b1) / 1000000000;
-		long int c2 = ((long)a2 + b2) % 1000000000;
+		long int c1 = (a1 + b1) / 1000000000;
+		long int c2 = (a2 + b2) % 1000000000;
 
 		if (c1)
 		{
