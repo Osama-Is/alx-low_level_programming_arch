@@ -16,7 +16,6 @@ int main(void)
 	int i;
 
 	printf("%ld, %ld, ", a2, b2);
-	printf("%ld", ((long int)999999999 + (long int)999999999));
 	for (i = 3; i <= 98; i++)
 	{
 		long int c1 = (a1 + b1) / 1000000;
