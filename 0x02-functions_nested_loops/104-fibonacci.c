@@ -16,11 +16,6 @@ int main(void)
 	int i;
 
 	printf("%ld, %ld, ", a2, b2);
-
-	a1 = 0;
-	b1 = 0;
-
-	i = a1 + 1;
 	for (i = 3; i <= 98; i++)
 	{
 		long int c1, c2;
