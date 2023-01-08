@@ -23,7 +23,7 @@ int main(void)
 
 		if (c1)
 		{
-			printf("%d", c1);
+			printf("%ld", c1);
 		}
 		printf("%ld", c2);
 		if (i != 98)
