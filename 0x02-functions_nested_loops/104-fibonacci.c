@@ -11,14 +11,16 @@
  */
 int main(void)
 {
-	long int a1, a2 = 1;
-	long int b1, b2 = 2;
+	long int a1, a2;
+	long int b1, b2;
 	int i;
 
 	printf("%ld, %ld, ", a2, b2);
 
 	a1 = 0;
+	a2 = 1;
 	b1 = 0;
+	b2 = 2;
 
 	for (i = 3; i <= 98; i++)
 	{
