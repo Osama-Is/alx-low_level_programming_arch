@@ -21,11 +21,16 @@ int main(void)
 		long int c1 = (a1 + b1) / 1000000000;
 		long int c2 = (a2 + b2) % 1000000000;
 
-		printf("%ld%ld", c1, c2);
+		if (c1)
+		{
+			printf("%d", c1);
+		}
+		printf("%ld", c2);
 		if (i != 98)
 		{
 			printf(", ");
 		}
+
 		a1 = b1;
 		a2 = b2;
 		b1 = c1;
