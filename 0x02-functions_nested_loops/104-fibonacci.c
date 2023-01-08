@@ -33,7 +33,7 @@ int main(void)
 		{
 			printf("%ld", c1);
 		}
-		printf("%ld", c2);
+		printf("%09ld", c2);
 		if (i != 98)
 		{
 			printf(", ");
