@@ -32,8 +32,12 @@ int main(void)
 		if (c1)
 		{
 			printf("%ld", c1);
+			printf("%09ld", c2);
 		}
-		printf("%09ld", c2);
+		else
+		{
+			printf("%ld", c2);
+		}
 		if (i != 98)
 		{
 			printf(", ");
