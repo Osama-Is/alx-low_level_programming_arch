@@ -11,15 +11,16 @@
  */
 int main(void)
 {
-	long int a2 = 1;
+	long int a1, a2 = 1;
 	long int b1, b2 = 2;
 	int i;
-	long int aa;
 
 	printf("%ld, %ld, ", a2, b2);
 
-	aa = 0;
+	a1 = 0;
 	b1 = 0;
+
+	i = a1 + 1;
 	for (i = 3; i <= 98; i++)
 	{
 		long int c1 = (a2 + b2) / 1000000000;
