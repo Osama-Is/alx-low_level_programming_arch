@@ -19,10 +19,13 @@ int main(void)
 
 	for (i = 3; i <= 98; i++)
 	{
-		long int c1 = (a1 + b1) / 1000000000;
+		long int c1 = (a1 + b1) / 100000000;
 		long int c2 = (a2 + b2) % 1000000000;
 
-		printf("%ld", c1);
+		if (c1)
+		{
+			printf("%ld", c1);
+		}
 		printf("%ld", c2);
 		if (i != 98)
 		{
