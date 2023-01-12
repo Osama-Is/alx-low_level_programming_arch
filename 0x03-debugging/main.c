@@ -1,4 +1,4 @@
-#include "main.h"
+#include "MAIN.H"
 
 /**
 * main - tests function that prints if integer is positive or negative
@@ -9,7 +9,7 @@ int main(void)
 {
         int i;
 
-        i = 0;
+        i = 48;
         positive_or_negative(i);
 
         return (0);
