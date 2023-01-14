@@ -14,13 +14,13 @@ void more_numbers(void)
 			int fd, sd;
 
 			fd = y % 10;
-			_putchar(fd + '0');
+			sd = y / 10;
 
-			if (y >= 10)
+			if (sd != 0)
 			{
-				sd = y / 10;
 				_putchar(sd + '0');
 			}
+			_putchar(fd + '0');
 		}
 		_putchar('0');
 	}
