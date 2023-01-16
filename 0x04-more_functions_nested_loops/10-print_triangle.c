@@ -15,7 +15,7 @@ void print_triangle(int size)
 
 	for (i = 1; i <= size; i++)
 	{
-		int y = 10 - i;
+		int y = size - i;
 		int z = i;
 
 		while (y--)
