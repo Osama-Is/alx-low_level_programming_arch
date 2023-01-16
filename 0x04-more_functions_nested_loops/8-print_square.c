@@ -7,6 +7,7 @@
  * Description:
  * - If size is 0 or less, the function should print only a new line
  * - The character '#' is used to print the square
+ * - Only '_putchar' function is allowed to print
  */
 void print_square(int size)
 {
