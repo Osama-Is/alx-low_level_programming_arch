@@ -1,4 +1,4 @@
-#include <main.h>
+#include <stdio.h>
 
 /**
  * main - Prints the numbers from 1 to 100
@@ -8,6 +8,7 @@
  * - If the nbumber is multiple of 5, it prints "Buzz".
  * - If the number is multiple of both 3 & 5, it prints "FizzBuzz"
  * - Each number or word should be separated by a space.
+ * Return: Always Zero
  */
 int main(void)
 {
@@ -15,22 +16,24 @@ int main(void)
 
 	for (i = 1; i <= 100; i++)
 	{
-		if (n % 3 != 0 && n % 5 != 0)
+		if (i % 3 != 0 && i % 5 != 0)
 		{
-			printf("%d", n);
+			printf("%d", i);
 		}
-		if (n % 3 == 0)
+		if (i % 3 == 0)
 		{
 			printf("Fizz");
 		}
-		if (n % 5 == 0)
+		if (i % 5 == 0)
 		{
 			printf("Buzz");
 		}
-		if (n != 100)
+		if (i != 100)
 		{
-			printf(' ');	
+			printf(" ");	
 		}
 	}
 	printf("\n");
+
+	return (0);
 }
