@@ -7,8 +7,8 @@
  * Decription:
  * - Only '_putchar' function is allowed to print
  * - Not allowed to use long
- * - Not allowed to use array pointers
- * - Not allowed to hard codde special values
+ * - Not allowed to use arrays or pointers
+ * - Not allowed to hard code special values
  */
 void print_number(int n)
 {
