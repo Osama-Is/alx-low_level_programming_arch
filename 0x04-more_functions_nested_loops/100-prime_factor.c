@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	long long int n = 612852475143;
+	long int n = sqrt612852475143;
 	long int i;
 
 	for (i = 2; i <= sqrt(n); i++)
@@ -22,7 +22,7 @@ int main(void)
 			i++;
 		}
 	}
-	printf("%lld", n);
+	printf("%ld", n);
 
-	return (0);
+	return (0);75
 }
