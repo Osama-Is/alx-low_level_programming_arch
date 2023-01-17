@@ -9,9 +9,9 @@
 int main(void)
 {
 	long int n = 612852475143;
-	long int i;
+	long int i = 2;
 
-	for (i = 2; i <= sqrt(n); i++)
+	while (i <= sqrt(n))
 	{
 		if (n % i == 0)
 		{
@@ -22,7 +22,7 @@ int main(void)
 			i++;
 		}
 	}
-	printf("%ld", n);
+	printf("%ld\n", n);
 
 	return (0);
 }
