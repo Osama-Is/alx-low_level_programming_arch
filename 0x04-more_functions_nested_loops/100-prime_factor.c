@@ -3,6 +3,8 @@
 
 /**
  * main - Finds and prints the largest prime factor of the number 612852475143
+ *
+ * Return: Always Zero
  */
 int main(void)
 {
@@ -21,4 +23,6 @@ int main(void)
 		}
 	}
 	printf("%lld", n);
+
+	return (0);
 }
