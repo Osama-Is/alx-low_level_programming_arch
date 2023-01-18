@@ -13,14 +13,18 @@
  */
 void print_number(int n)
 {
+	unsigned int pn;
+	
 	if (n < 0)
 	{
-		n = abs(n);
 		_putchar('-');
 	}
-	if ((n / 10) != 0)
+
+	pn = (unsigned int)(n * -1);
+
+	if ((pn / 10) != 0)
 	{
-		print_number(n / 10);
+		print_number(pn / 10);
 	}
-	_putchar((n % 10) + '0');
+	_putchar((pn % 10) + '0');
 }
