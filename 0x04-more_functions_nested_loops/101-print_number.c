@@ -18,7 +18,8 @@ void print_number(int n)
 	if (n < 0)
 	{
 		_putchar('-');
-		pn = (unsigned int)(~n) + 1;
+		pn = (unsigned int)(~n);
+		pn++;
 	}
 
 	pn = (unsigned int)(n);
