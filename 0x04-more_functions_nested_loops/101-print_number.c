@@ -14,7 +14,7 @@
 void print_number(int n)
 {
 	unsigned int pn;
-	
+
 	if (n < 0)
 	{
 		_putchar('-');
@@ -32,7 +32,6 @@ void print_number(int n)
 	{
 		pn = (unsigned int)(n);
 	}
-
 	if ((pn / 10) != 0)
 	{
 		print_number(pn / 10);
