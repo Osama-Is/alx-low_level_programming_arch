@@ -20,7 +20,7 @@ void print_number(int n)
 		_putchar('-');
 		if (n == INT_MIN)
 		{
-			pn = (unsigned int)(n);
+			pn = (unsigned int)(~n);
 			pn++;
 		}
 		else
