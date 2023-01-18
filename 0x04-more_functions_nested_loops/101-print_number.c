@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdlib.h>
+#include <limits.h>
 
 /**
  * print_number - Prints an integer
@@ -18,11 +18,20 @@ void print_number(int n)
 	if (n < 0)
 	{
 		_putchar('-');
-		pn = (unsigned int)(~n);
-		pn++;
+		if (n == INT_MIN)
+		{
+			pn = (unsigned int)(~n);
+			pn++;
+		}
+		else
+		{
+			pn = -n;
+		}
 	}
-
-	pn = (unsigned int)(n);
+	else
+	{
+		pn = (unsigned int)(n);
+	}
 
 	if ((pn / 10) != 0)
 	{
