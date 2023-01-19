@@ -1,5 +1,4 @@
 #include "main.h"
-#include <limits.h>
 
 /**
  * print_number - Prints an integer
@@ -13,28 +12,26 @@
  */
 void print_number(int n)
 {
-	unsigned int pn;
+	char c;
+	static char flag = 0;
 
 	if (n < 0)
 	{
-		_putchar('-');
-		if (n == INT_MIN)
+		c = -1;
+		if (flag == 0)
 		{
-			pn = (unsigned int)(~n);
-			pn++;
-		}
-		else
-		{
-			pn = -n;
+			_putchar('-');
+			flag = 1;
 		}
 	}
 	else
 	{
-		pn = (unsigned int)(n);
+		c = 1;
 	}
-	if ((pn / 10) != 0)
+
+	if ((n / 10) != 0)
 	{
-		print_number(pn / 10);
+		print_number(n / 10);
 	}
-	_putchar((pn % 10) + '0');
+	_putchar(((n % 10) * c) + '0');
 }
